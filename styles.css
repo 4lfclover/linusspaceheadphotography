@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    margin-top: 0;
+
+}
+
+h1 {
+    font-size: 45px;
+    font-family: HelveticaNeue-UltraLight; 
+    color: rgb(114, 114, 114);
+}
+
+h2 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: HelveticaNeue-Light;
+    color: green
+}
+h4 {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: Arial
+}
+
+img {
+    max-width: 80%;
+    max-height: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* NavBar */
+  .navbar {
+    padding: 0 0 0;
+  }
+  
+  .navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.6rem;
+    font-weight: 900;
+  }
+
+  .container-fluid {
+    padding: 3% 15% 7%;
+  }
+  
+  .nav-item {
+    padding: 0 25px;
+  }
+  
+  .nav-link {
+    font-size: 1.3rem;
+    font-family: 'Montserrat-light', sans-serif;
+  }
+
+/* Title Page */
+
+
+#main video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 150%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -5;
+  }
+
+.logocontainer {
+    z-index: 5;
+    position: absolute;
+    top: 20%;  
+}
+
+.centerText {
+    text-align: center;
+}
+
+/* Carousel*/
+#gallery {
+    position: relative;
+    top: 240px;
+}
+.carousel {
+    margin-bottom: 4rem;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 35rem;
+  }
+
+
+/* Footer */
+
+/* Media Queries  */
+@media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+}
